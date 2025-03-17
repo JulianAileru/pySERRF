@@ -619,3 +619,4 @@ def cross_validate(
     raw_variations = pd.concat(raw_variations, axis=1)
     normalized_variations = pd.concat(normalized_variations, axis=1)
     return raw_variations, normalized_variations
+
